@@ -13,9 +13,9 @@
 body {
   background-color: #ffffff;
   color: #4d4d4d;
-  margin-left: 87px;
+  /* margin-left: 87px;
   margin-right: 87px;
-  margin-top: 120px;
+  margin-top: 120px; */
 }
 
 h1,
@@ -56,6 +56,11 @@ p {
   margin-top: 15px;
 }
 
+.container1 {
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 120px;
+}
 
 .p-r {
   position: relative;
