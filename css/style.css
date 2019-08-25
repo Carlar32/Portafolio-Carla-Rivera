@@ -413,7 +413,7 @@ p {
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #fff;
+  color:#E75978;
 }
 
 .navbar-b.navbar-trans .show>.nav-link,
@@ -458,7 +458,7 @@ p {
 }
 
 .navbar-b .navbar-brand {
-  color: #fff;
+  color:#E75978;
   font-size: 1.6rem;
   font-weight: 600;
 }
@@ -716,6 +716,27 @@ body .navbar-b .dropdown-menu .dropdown-item:hover {
 
 .summary {
   font-size: 18px;
+}
+
+.imagen {
+  margin-left: 250px;
+  margin-right: 300px;
+}
+
+.imagena {
+  text-align:center;
+  height: 410px;
+  width: 770px;
+  margin-left: 150px;
+  margin-right: 200px;
+}
+
+.proceso {
+  display: block;
+  height: 180px;
+  width: 800px;
+  margin-left: 150px;
+  margin-right: 300px;
 }
 
 ul {
