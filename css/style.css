@@ -41,7 +41,7 @@ a {
 }
 
 a:hover {
-  color: #0078ff;
+  color: #E75978;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -50,6 +50,7 @@ ul {
   font-family: 'Rubik', sans-serif;
   font-size: 15px;
   font-weight: 400px;
+  color: #4d4d4d
 }
 
 p {
@@ -147,7 +148,7 @@ p {
 }
 
 .sect-pt4 {
-  padding-top: 0rem;
+  padding-top: 25px;
 }
 
 .sect-mt4 {
@@ -173,6 +174,15 @@ p {
   font-size: 45px;
   font-weight: 500px;
   text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.title-b {
+  font-family: 'Rubik', sans-serif;
+  font-size: 45px;
+  font-weight: 500px;
+  text-transform: uppercase;
+  padding-top: 25px;
 }
 
 .subtitle-a {
@@ -186,6 +196,13 @@ p {
   margin: 0 auto;
 }
 
+.proyect-title {
+  font-family: 'Rubik', sans-serif;
+  color: #8F2161;
+  font-size: 2rem;
+}
+
+
 .line-mf {
   width: 100px;
   height: 3px;
@@ -197,6 +214,7 @@ p {
   font-family: 'Rubik', sans-serif;
   font-size: 14px;
   font-weight: 400px;
+  color: #4d4d4d;
 }
 
 /*--/ Title Left /--*/
@@ -234,12 +252,6 @@ p {
   background-color: #fff;
   z-index: 2;
 }
-
-
-
-
-/*------/ Owl Carousel /------*/
-
 
 /*--/ Scrolltop s /--*/
 
@@ -713,7 +725,6 @@ body .navbar-b .dropdown-menu .dropdown-item:hover {
   font-size: 1.2rem;
 }
 
-
 .summary {
   font-size: 18px;
 }
@@ -739,16 +750,24 @@ body .navbar-b .dropdown-menu .dropdown-item:hover {
   margin-right: 300px;
 }
 
+.blockquote {
+  padding: 60px 80px 40px;
+  position: relative;
+}
+
+.blockquote:before {
+  position: absolute;
+  font-family: 'FontAwesome';
+  top: 0;
+  content:"\f10d";
+  font-size: 100px;
+  color: rgba(0,0,0,0.1);
+   
+}
+
 ul {
   font-size: 18px;
 }
-
-
-
-
-
-
-
 
 
 /*------/ Comments /------*/
@@ -812,9 +831,8 @@ ul {
 ======================================*/
 .fondo_bajo {
   background-repeat: no-repeat;
-
   overflow: hidden;
-  display: flex;
+  /* display: flex; */
   justify-content: space-evenly;
   align-items: center;
   margin-top: 40px;
@@ -976,6 +994,7 @@ ul {
 
   .intro .intro-title {
     font-size: 70px;
+    padding-top: 60px;
   }
 
   .intro .intro-subtitle {
@@ -1003,6 +1022,7 @@ ul {
   .logo {
     max-height: 400px;
     max-width: 600px;
+    margin-top: 80px;
   }
 
   .about-me .lead {
