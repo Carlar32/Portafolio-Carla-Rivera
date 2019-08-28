@@ -32,7 +32,11 @@ h1 {
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
   font-size: 48px;
+}
 
+h5 {
+  font-family: 'Rubik', sans-serif;
+  color: #8F2161;
 }
 
 a {
@@ -869,7 +873,7 @@ ul {
   display: inline;
 }
 
-.correo h3 {
+.user h3 {
   color: #E75978;
 }
 
