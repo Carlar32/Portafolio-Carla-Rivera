@@ -221,6 +221,7 @@ p {
   color: #4d4d4d;
 }
 
+
 /*--/ Title Left /--*/
 
 .title-box-2 {
@@ -326,7 +327,7 @@ p {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border-top: 6px solid #8F2161;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -738,13 +739,22 @@ body .navbar-b .dropdown-menu .dropdown-item:hover {
   margin-right: 300px;
 }
 
-.imagena {
-  text-align:center;
-  height: 410px;
-  width: 770px;
+.entrevista {
   margin-left: 150px;
-  margin-right: 200px;
+  margin-right: 150px;
 }
+
+.user {
+  margin-left: 200px;
+  margin-right: 150px;
+}
+
+.sitemap {
+  width: 700px;
+  margin-left: 200px;
+  margin-right: 150px;
+}
+
 
 .proceso {
   display: block;
