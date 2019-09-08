@@ -203,7 +203,9 @@ p {
 .proyect-title {
   font-family: 'Rubik', sans-serif;
   color: #8F2161;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 450;
 }
 
 
@@ -223,7 +225,7 @@ p {
 
 .summary1 {
   font-family: 'Rubik', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400px;
   color: #4d4d4d;
   text-align: center;
@@ -743,7 +745,7 @@ body .navbar-b .dropdown-menu .dropdown-item:hover {
 }
 
 .summary1 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .imagen {
