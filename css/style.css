@@ -267,6 +267,22 @@ p {
   z-index: 2;
 }
 
+.caja1 {
+  font-family: 'Rubik', sans-serif;
+  color: #4D4D4D;
+  background: #ECECEC;
+  overflow: hidden;
+  padding: 40px;
+}
+
+.caja2 {
+  font-family: 'Rubik', sans-serif;
+  color: #4D4D4D;
+  background: #FAF1E7;
+  overflow: hidden;
+  padding: 40px;
+}
+
 /*--/ Scrolltop s /--*/
 
 .scrolltop-mf {
@@ -1033,10 +1049,10 @@ body .navbar-b .dropdown-menu .dropdown-item:hover {
   .ul {
     font-size: 20px;
   }
-  
+
   .blockquote:before {
     font-size: 100px;
-  }    
+  }
 
   .paralax-mf .center1 {
     font-size: 32px;
