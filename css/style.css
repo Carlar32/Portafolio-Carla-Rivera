@@ -773,6 +773,11 @@ body .navbar-b .dropdown-menu .dropdown-item:hover {
   font-size: 15px;
 }
 
+.prototype {
+  width: 600; 
+  height: 350;
+}
+
 .imagen {
   display: block;
   margin-left: auto;
@@ -1091,7 +1096,7 @@ body .navbar-b .dropdown-menu .dropdown-item:hover {
   .prototype {
     width: 800; 
     height: 450;
-    margin-left: 150px
+    margin-left: 150px;
   }
 
 
