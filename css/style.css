@@ -283,6 +283,7 @@ p {
   padding: 40px;
 }
 
+
 /*--/ Scrolltop s /--*/
 
 .scrolltop-mf {
@@ -768,6 +769,10 @@ body .navbar-b .dropdown-menu .dropdown-item:hover {
   font-size: 15px;
 }
 
+.lead {
+  font-size: 15px;
+}
+
 .imagen {
   display: block;
   margin-left: auto;
@@ -1080,7 +1085,15 @@ body .navbar-b .dropdown-menu .dropdown-item:hover {
 
   .lead {
     font-family: 'Rubik', sans-serif;
+    font-size: 20px;
   }
+
+  .prototype {
+    width: 800; 
+    height: 450;
+    margin-left: 150px
+  }
+
 
 
   .container-footer {
