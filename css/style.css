@@ -175,7 +175,7 @@ p {
 
 .title-a {
   font-family: 'Rubik', sans-serif;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 500px;
   text-transform: uppercase;
   padding-top: 10px;
@@ -183,7 +183,7 @@ p {
 
 .title-b {
   font-family: 'Rubik', sans-serif;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 500px;
   text-transform: uppercase;
   padding-top: 25px;
@@ -225,7 +225,6 @@ p {
 
 .summary1 {
   font-family: 'Rubik', sans-serif;
-  font-size: 15px;
   font-weight: 400px;
   color: #4d4d4d;
   text-align: center;
@@ -239,7 +238,7 @@ p {
 }
 
 .title-left {
-  font-size: 2.5rem;
+  font-size: 30px;
   position: relative;
   font-weight: 500px;
   text-transform: uppercase;
@@ -267,6 +266,23 @@ p {
   background-color: #fff;
   z-index: 2;
 }
+
+.caja1 {
+  font-family: 'Rubik', sans-serif;
+  color: #4D4D4D;
+  background: #ECECEC;
+  overflow: hidden;
+  padding: 40px;
+}
+
+.caja2 {
+  font-family: 'Rubik', sans-serif;
+  color: #4D4D4D;
+  background: #FAF1E7;
+  overflow: hidden;
+  padding: 40px;
+}
+
 
 /*--/ Scrolltop s /--*/
 
@@ -440,7 +456,7 @@ p {
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color:#E75978;
+  color: #E75978;
 }
 
 .navbar-b.navbar-trans .show>.nav-link,
@@ -485,7 +501,7 @@ p {
 }
 
 .navbar-b .navbar-brand {
-  color:#E75978;
+  color: #E75978;
   font-size: 1.6rem;
   font-weight: 600;
 }
@@ -602,7 +618,7 @@ body .navbar-b .dropdown-menu .dropdown-item:hover {
 .intro .intro-title {
   color: #E75978;
   font-weight: 500;
-  font-size: 48px;
+  font-size: 40px;
 }
 
 .intro .intro-subtitle {
@@ -663,7 +679,7 @@ body .navbar-b .dropdown-menu .dropdown-item:hover {
 
 .about-mf .about-img img {
   margin-left: 10px;
-}iner
+}
 
 .about-me .lead {
   font-family: 'Rubik', sans-serif;
@@ -675,6 +691,11 @@ body .navbar-b .dropdown-menu .dropdown-item:hover {
   font-family: 'Rubik', sans-serif;
   font-size: 15px;
   font-weight: 400;
+}
+
+.mail {
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
 }
 
 
@@ -741,16 +762,40 @@ body .navbar-b .dropdown-menu .dropdown-item:hover {
 }
 
 .summary {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .summary1 {
-  font-size: 25px;
+  font-size: 15px;
+}
+
+.lead {
+  font-size: 15px;
+}
+
+.prototype {
+  width: 600; 
+  height: 350;
 }
 
 .imagen {
-  margin-left: 250px;
-  margin-right: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+}
+
+.margin-imgpdl {
+  margin-bottom: 10px;
+}
+
+.margin-pdl {
+  margin-bottom: 25px;
+}
+
+.margin {
+  margin-top: 40px;
 }
 
 .entrevista {
@@ -792,14 +837,12 @@ body .navbar-b .dropdown-menu .dropdown-item:hover {
   position: absolute;
   font-family: 'FontAwesome';
   top: 0;
-  content:"\f10d";
-  font-size: 100px;
-  color:rgba(121, 121, 121, 0.19);  
+  content: "\f10d";
+  font-size: 50px;
+  color: rgba(121, 121, 121, 0.19);
 }
 
-ul {
-  font-size: 18px;
-}
+
 
 
 /*======================================
@@ -825,7 +868,7 @@ ul {
   padding: 8px 45px;
   border: 1px solid #8F2161;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 15px;
   color: #8F2161;
   margin-top: 7px;
   margin-bottom: 10px;
@@ -985,6 +1028,42 @@ ul {
     font-size: 3.5rem;
   }
 
+  .title-a {
+    font-size: 45px;
+  }
+
+  .title-left {
+    font-size: 40px;
+  }
+
+  .title-b {
+    font-size: 45px;
+  }
+
+  .mail {
+    font-size: 24px;
+  }
+
+  #cvd {
+    font-size: 18px;
+  }
+
+  .summary {
+    font-size: 20px;
+  }
+
+  .summary1 {
+    font-size: 25px;
+  }
+
+  .ul {
+    font-size: 20px;
+  }
+
+  .blockquote:before {
+    font-size: 100px;
+  }
+
   .paralax-mf .center1 {
     font-size: 32px;
     color: #8F2161;
@@ -1011,7 +1090,15 @@ ul {
 
   .lead {
     font-family: 'Rubik', sans-serif;
+    font-size: 20px;
   }
+
+  .prototype {
+    width: 800; 
+    height: 450;
+    margin-left: 150px;
+  }
+
 
 
   .container-footer {
